@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "subPush":"git subtree push --prefix dist origin gh-pages",
+    "mainPush":"git push origin main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
